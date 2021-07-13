@@ -3,7 +3,7 @@
     padding: 0;
 }
 .main-section{
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,11 @@
 .main-section, .secondcont, .thirdcont{
     flex-direction: column;
 }
-.topsection, .third1{
+.topsection,{
+    flex-direction: row;
+}
+.third1{
+    display: flex;
     flex-direction: row;
 }
 .center{
@@ -36,8 +40,39 @@
     background-color: pink;
 }
 .center2{
-    width: 50px;
+    width: 70px;
     height: 20px;
     margin: 5px auto;
     background-color: pink;
+}
+.thirdcont{
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+}
+.sc1, .sc2, .sc3, .wide{
+    background-color: gray;
+}
+.sc1{
+    height: 20px;
+    width: 150px;
+}
+.sc2{
+    height: 40px;
+    width: 330px;
+    margin: 0 20px 10px 20px;
+}
+.sc3{
+    height: 20px;
+    width: 370px;
+}
+.onemore{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.wide{
+    margin: 10px 20px 10px 20px;
+    height: 50px;
+    width: 500px;
 }
