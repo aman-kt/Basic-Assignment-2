@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-section{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.toplt{
+    margin: 0 0 20px 30px;
+    background-color: pink;
+    height: 40px;
+    width: 200px;
+    float: left;
+}
+.toprt{
+    margin: 0 30px 0 0;
+    background-color: pink;
+    height: 40px;
+    width: 90px;
+    float: right;
+}
+.main-section, .secondcont, .thirdcont{
+    flex-direction: column;
+}
+.topsection, .third1{
+    flex-direction: row;
+}
+.center{
+    width: 20%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: pink;
+}
+.center2{
+    width: 50px;
+    height: 20px;
+    margin: 5px auto;
+    background-color: pink;
+}
